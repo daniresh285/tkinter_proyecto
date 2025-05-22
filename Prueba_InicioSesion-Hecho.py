@@ -47,7 +47,7 @@ frameDerecho.pack(fill="both", expand=True, side="right")
 titulo= tk.Label(frameDerecho, text="Inicio De Sesion \nde ChatGPT", bg="aquamarine",font=("Arial", 18))
 titulo.pack(pady=20)
 
-#Creo el usuario y la contraseña y les creo el entry y todo eso va al frame izquierdo
+#Creo el usuario y la contraseña y les creo el entry y todo eso va al frame derecho
 
 usuario= tk.Label(frameDerecho, text="Nombre de usuario", bg="aquamarine", font=("Arial", 18))
 usuario.pack(pady=(20,2))
@@ -61,6 +61,7 @@ contrasena.pack(pady=5)
 entry_contrasena= tk.Entry(frameDerecho, show="*", font=("Arial", 18))
 entry_contrasena.pack(pady=5)
 
+#Aqui creamos el boton que cuando le demos va a ir a la funcion de incio de sesion de arriba
 boton=tk.Button(frameDerecho, text="Iniciar Sesion", command=inicio_sesion)
 boton.pack(pady=20)
 
